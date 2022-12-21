@@ -1,0 +1,18 @@
+{
+  "name": "repro",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@antv/g6": "4.0.3",
+    "g2v5": "npm:@antv/g2@^5.0.0-beta.5",
+    "typescript": "^4.9.4"
+  }
+}

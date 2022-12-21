@@ -1,0 +1,42 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "moduleResolution": "node"
+    // everything below this line is our compiler options in the main project, but these
+    // dont seem neccesary to reproduce the issue
+    // "rootDir": "src",
+    // "paths": {
+    //   "bongo-common/*": ["../common/src/*"]
+    // },
+    // "outDir": "dist",
+    // "sourceMap": true,
+    // "target": "es5",
+    // "module": "system",
+    // "declaration": false,
+    // "removeComments": true,
+    // "emitDecoratorMetadata": true,
+    // "experimentalDecorators": true,
+    // "allowSyntheticDefaultImports": true,
+    // "moduleResolution": "node",
+    // "isolatedModules": false,
+    // "alwaysStrict": true,
+    // "lib": ["es2015", "dom"],
+    // "baseUrl": "./",
+    // "plugins": [],
+    // /* Strict Type-Checking Options */
+    // "strict": true /* Enable all strict type-checking options. */,
+    // // TODO: ideally set noImplicitAny -> true
+    // "noImplicitAny": false /* Raise error on expressions and declarations with an implied 'any' type. */,
+    // // TODO: ideally enable strictNullChecks
+    // "strictNullChecks": false /* Enable strict null checks. */,
+    // /* Additional Checks */
+    // "noImplicitThis": true /* Raise error on 'this' expressions with an implied 'any' type. */,
+    // "noUnusedLocals": true /* Report errors on unused locals. */,
+    // // TODO: ideally set noUnusedParameters -> true
+    // "noUnusedParameters": false /* Report errors on unused parameters. */,
+    // // ideally we'd set noImplicitReturns -> true, but lots of e.g. _.forEach iterators don't return a value in call cases
+    // "noImplicitReturns": false /* Report error when not all code paths in function return a value. */,
+    // "noFallthroughCasesInSwitch": true /* Report errors for fallthrough cases in switch statement. */,
+    // "noUncheckedIndexedAccess": true /* Include 'undefined' in index signature results */
+  }
+}
