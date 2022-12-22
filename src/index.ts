@@ -1,4 +1,4 @@
-import { Chart } from 'g2v5';
+import { Chart } from '@antv/g2';
 
 const chart = new Chart({
   container: 'container',

@@ -1,7 +1,7 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-var g2v5_1 = require("g2v5");
-var chart = new g2v5_1.Chart({
+var g2_1 = require("@antv/g2");
+var chart = new g2_1.Chart({
     container: 'container',
     paddingLeft: 60,
     height: 800,
